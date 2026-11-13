@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Stoke: Privacy Policy</title>
+<style>
+  body { margin: 0; background: #14100E; color: #F3E9DF; font: 17px/1.6 system-ui, sans-serif; }
+  main { max-width: 720px; margin: 0 auto; padding: 32px 16px 64px; }
+  h1 { color: #FF7A1A; line-height: 1.2; }
+  h2 { margin-top: 2em; }
+  a { color: #FFCF4A; }
+  em { color: #A8988A; }
+  button { font: inherit; color: #14100E; background: #FF7A1A; border: 0; border-radius: 12px; padding: 12px 20px; min-height: 48px; cursor: pointer; }
+</style>
+</head>
+<body>
+<main>
+<h1>Stoke: Privacy Policy (DRAFT)</h1>
+<p><em>Last updated: 2026-11-13.</em></p>
+<p>Stoke: Daily Fire Puzzle ("the game") is published by <strong>David Sousa</strong> ("we"). This page explains what data the game uses.</p>
+<h2>Short version</h2>
+<ul>
+<li>We do not ask you to create an account, and we do not collect your name, email or contacts.</li>
+<li>Your progress is stored only on your device.</li>
+<li>The game shows ads through Google AdMob, which collects some device data to deliver them.</li>
+<li>The game is not directed to children under 13.</li>
+</ul>
+<h2>Data stored on your device</h2>
+<p>The game saves your progress in a file on your device: streak, results, best scores, unlocks, chosen theme, settings and counters used to limit how often ads appear. This file is not sent to us. It is removed when you uninstall the game or clear its data.</p>
+<p>The game also keeps a local log of gameplay events (for example "match started" or "match finished") on your device. In this version the log is not sent anywhere.</p>
+<h2>Advertising (Google AdMob)</h2>
+<p>The game uses <strong>Google AdMob</strong> to show ads. AdMob and its partners may collect and process:</p>
+<ul>
+<li>device identifiers, such as the advertising ID;</li>
+<li>IP address, which gives an approximate location;</li>
+<li>device and app information (model, operating system, language, app version);</li>
+<li>ad interactions (ads shown and tapped) and diagnostics.</li>
+</ul>
+<p>Google uses this data to deliver, measure and, with your consent, personalise ads. See how Google uses data: <a href="https://policies.google.com/technologies/partner-sites">https://policies.google.com/technologies/partner-sites</a> and Google's Privacy Policy: <a href="https://policies.google.com/privacy">https://policies.google.com/privacy</a>.</p>
+<h3>Your choices</h3>
+<ul>
+<li><strong>Consent (EEA, UK, Switzerland):</strong> the first time you open the game we ask for your choice through Google's consent form. You can change it at any time in <strong>Settings &gt; Privacy options</strong>.</li>
+<li><strong>Advertising ID:</strong> you can reset or delete it in your device's settings (Android: Settings &gt; Privacy &gt; Ads).</li>
+</ul>
+<h2>Notifications</h2>
+<p>If you turn on reminders, the game schedules notifications on your device (a daily reminder and a streak reminder). They are created locally; no server is involved. You can turn them off in the game's Settings or in your device's settings.</p>
+<h2>Children</h2>
+<p>The game is not directed to children under 13, and ad requests are not tagged as child-directed. Ad content is limited to a rating suitable for general audiences.</p>
+<h2>Data retention and deletion</h2>
+<p>We do not hold your data on our servers. To delete the data on your device, clear the game's data or uninstall it. For data held by Google, use Google's tools: <a href="https://myaccount.google.com">https://myaccount.google.com</a>.</p>
+<h2>Changes</h2>
+<p>We may update this policy. The date at the top shows the latest version.</p>
+<h2>Contact</h2>
+<p><button id="email" type="button">Show contact email</button></p>
+<noscript><p>Turn on JavaScript to see the contact email.</p></noscript>
+</main>
+<script>
+  // The address is never written whole in the page, so simple spam bots that read the HTML cannot find it.
+  document.getElementById("email").addEventListener("click", function () {
+    var parts = ["thestoke", "game", "gmail", "com"];
+    var address = parts[0] + parts[1] + String.fromCharCode(64) + parts[2] + "." + parts[3];
+    var link = document.createElement("a");
+    link.href = "mai" + "lto:" + address;
+    link.textContent = address;
+    this.replaceWith(link);
+  });
+</script>
+</body>
+</html>
